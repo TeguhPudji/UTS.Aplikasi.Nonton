@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#2a9d8f"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:padding="17dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#fefae0">
+
+        <ImageView
+            android:src="@drawable/logologin"
+            android:layout_marginTop="30dp"
+            android:layout_width="90dp"
+            android:layout_height="90dp"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NONTON FILM"
+            android:textColor="#ec7063"
+            android:textSize="23dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username"/>
+
+        <EditText
+            android:id="@+id/edtText_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"/>
+
+        <EditText
+            android:id="@+id/edtText_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:minHeight="48dp"/>
+
+        <Button
+            android:id="@+id/btn_masuk"
+            android:text="MASUK"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#f4a261"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:text="Bagi Pengguna Baru"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_daftar"
+            android:text="DAFTAR"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#e76f51"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

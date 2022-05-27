@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#2a9d8f"
+    tools:context=".DaftarActivity">
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:padding="17dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#fefae0">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pendaftaran"
+            android:textColor="#ec7063"
+            android:textSize="23dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username"/>
+
+        <EditText
+            android:id="@+id/edtText_daftarUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"/>
+
+        <EditText
+            android:id="@+id/edtText_daftarPwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Password"/>
+
+        <EditText
+            android:id="@+id/edtText_daftarCpwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn_pendaftaran"
+            android:text="DAFTAR"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#e76f51"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="--- atau ---"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn_backlogin"
+            android:text="Kembali Ke Halaman Login"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#f4a261"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
